@@ -1,6 +1,10 @@
+import AddProduct from "../Teamplates/AddProduct";
+
 const AdminPanel = () => {
     return (
-        <></>
+        <>
+            <AddProduct/>
+        </>
     );
 }
 

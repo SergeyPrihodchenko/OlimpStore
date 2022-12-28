@@ -1,0 +1,10 @@
+.admin_add_product {
+  display: flex;
+  flex-direction: column;
+}
+.admin_add_product .lbl_file {
+  border: solid black 2px;
+}
+.admin_add_product .inp_file {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

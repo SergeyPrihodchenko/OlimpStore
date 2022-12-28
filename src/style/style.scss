@@ -1,0 +1,14 @@
+.admin_add_product {
+
+    display: flex;
+    flex-direction: column;
+    
+
+    .lbl_file {
+        border: solid black 2px;
+    }
+
+    .inp_file {
+        display: none;
+    }
+}
