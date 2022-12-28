@@ -1,10 +1,52 @@
-.admin_add_product {
-  display: flex;
-  flex-direction: column;
+* {
+  padding: 0;
+  margin: 0%;
 }
-.admin_add_product .lbl_file {
-  border: solid black 2px;
+
+.admin_add_product .btn_submit {
+  padding: 15px;
+  margin: 0px auto;
+  width: 100px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+  text-transform: uppercase;
+  border-color: rgb(116, 114, 114);
+  color: rgb(116, 114, 114);
 }
-.admin_add_product .inp_file {
+.admin_add_product .btn_submit:hover {
+  background-color: rgb(116, 114, 114);
+  color: white;
+  cursor: pointer;
+}
+
+.lbl_file {
+  display: inline-block;
+  padding: 20px 25px;
+  margin: 0px 15px;
+  border-radius: 20px;
+  border: solid 1px rgb(116, 114, 114);
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgb(116, 114, 114);
+}
+.lbl_file:hover {
+  background-color: rgb(116, 114, 114);
+  color: white;
+}
+
+.inp_file {
   display: none;
+}
+
+.txtarea_description {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 20px;
+  border-color: rgb(116, 114, 114);
+}
+
+.inp_name_file {
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */
